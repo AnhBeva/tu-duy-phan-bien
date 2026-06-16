@@ -8,9 +8,9 @@ vitepress-site/docs/.vitepress/cache/
 
 # Local QA artifacts
 vitepress-site/qa-vitepress/
+vitepress-site/qa-vitepress-*/
 
 # OS/editor noise
 .DS_Store
 *.swp
 *.tmp
-

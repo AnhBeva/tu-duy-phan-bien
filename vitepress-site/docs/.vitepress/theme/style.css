@@ -167,7 +167,7 @@
 
 /* ---------- Homepage hero ---------- */
 .VPHero .name {
-  font-size: 3.2rem !important;
+  font-size: 2.9rem !important;
 }
 
 .VPHero .text {
@@ -935,6 +935,21 @@ html.has-mermaid-viewer body {
   margin-top: 8px;
 }
 
+.course-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.course-card {
+  min-height: 168px;
+  justify-content: space-between;
+}
+
+.course-card strong {
+  font-family: 'Newsreader', ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  font-size: 1.55rem;
+  font-weight: 500;
+}
+
 .VPHero .name,
 .VPHero .text,
 .VPHero .tagline {
@@ -971,5 +986,19 @@ html.has-mermaid-viewer body {
 
   .card-grid {
     grid-template-columns: 1fr;
+  }
+
+  .course-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1180px) {
+  .course-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .VPNavBarMenuLink {
+    margin: 0 8px;
   }
 }
