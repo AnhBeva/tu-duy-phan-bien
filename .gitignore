@@ -1,0 +1,16 @@
+# Dependencies
+node_modules/
+vitepress-site/node_modules/
+
+# VitePress build output and caches
+vitepress-site/docs/.vitepress/dist/
+vitepress-site/docs/.vitepress/cache/
+
+# Local QA artifacts
+vitepress-site/qa-vitepress/
+
+# OS/editor noise
+.DS_Store
+*.swp
+*.tmp
+
