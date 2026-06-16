@@ -3,8 +3,10 @@ layout: page
 ---
 
 <script setup>
+import { withBase } from 'vitepress'
+
 if (typeof window !== 'undefined') {
-  window.location.replace('/tu-duy-phan-bien/bai-4-ra-quyet-dinh-lien-team/')
+  window.location.replace(withBase('/tu-duy-phan-bien/bai-4-ra-quyet-dinh-lien-team/'))
 }
 </script>
 

@@ -3,8 +3,10 @@ layout: page
 ---
 
 <script setup>
+import { withBase } from 'vitepress'
+
 if (typeof window !== 'undefined') {
-  window.location.replace('/tu-duy-phan-bien/workbook-ca-nhan/')
+  window.location.replace(withBase('/tu-duy-phan-bien/workbook-ca-nhan/'))
 }
 </script>
 
