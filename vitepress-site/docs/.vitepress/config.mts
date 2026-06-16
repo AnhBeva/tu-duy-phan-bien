@@ -2,7 +2,7 @@
 import { defineConfig } from "vitepress";
 import { withMermaid } from "vitepress-plugin-mermaid";
 
-const docsBase = "/";
+const docsBase = process.env.VITEPRESS_BASE || "/";
 const brandLogo = 'data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="%23B8533D" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5.5h16" /><path d="M4 12h16" /><path d="M4 18.5h10" /><circle cx="17" cy="18.5" r="2.2" /><path d="M15.4 16.9 13.7 15.2" /><path d="M18.6 16.9 20.3 15.2" /></svg>';
 
 const criticalThinkingItems = [
